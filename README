@@ -1,0 +1,20 @@
+Проект содержит код для статьи "Интеллектуальные системы. Алгоритм A* и игра "Пятнашки""
+http://programming086.blogspot.com/2012/03/blog-post.html
+
+Для сборки
+---------------------
+mvn package
+
+
+Для запуска и получения справки
+---------------------
+java -jar FifteenPuzzle-0.0.1-SNAPSHOT.jar -h
+
+Для получения справки на русском
+---------------------
+
+UNIX
+java -DconsoleEncoding=utf-8 -jar FifteenPuzzle-0.0.1-SNAPSHOT.jar -h
+
+Windows
+java -DconsoleEncoding=cp866 -jar FifteenPuzzle-0.0.1-SNAPSHOT.jar -h
